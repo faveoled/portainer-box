@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<component type="desktop-application">
+  <id>io.github.faveoled.PortainerBox</id>
+  
+  <name>Portainer Box</name>
+  <summary>Manage your local Docker containers</summary>
+  
+  <metadata_license>CC0-1.0</metadata_license>
+  <project_license>MIT</project_license>
+  <project_license>Zlib</project_license>
+  
+  <developer id="io.github.faveoled">
+    <name>faveoled</name>
+  </developer>
+
+  <description>
+    <p>
+      Manage your local Docker instance using a web UI. 
+    </p>
+    <p>
+      Features: 
+    </p>
+    <ul>
+      <li>Start/Stop containers</li>
+      <li>View container logs</li>
+      <li>Volume management</li>
+      <li>Resource allocation management</li>
+    </ul>
+  </description>
+  
+  <launchable type="desktop-id">io.github.faveoled.PortainerBox.desktop</launchable>
+
+  <releases>
+    <release type="stable" version="2.21.4-1" date="2024-12-17">
+      <description>
+        <p>Initial release</p>
+      </description>
+    </release>
+  </releases>
+
+  <provides>
+    <id>io.github.faveoled.PortainerBox.desktop</id>
+  </provides>
+
+  <url type="homepage">https://github.com/faveoled/portainer-box</url>
+  <url type="bugtracker">https://github.com/faveoled/portainer-box/issues</url>
+  <url type="vcs-browser">https://github.com/portainer/portainer</url>
+
+  <screenshots>
+    <screenshot type="default">
+      <image>https://flathub.org/_next/image?url=https%3A%2F%2Fdl.flathub.org%2Fmedia%2Fnet%2Fkrafting%2FHexColordle%2Fab497c8dc4186ef6c33e9ec5f9e0f691%2Fscreenshots%2Fimage-1_orig.webp&amp;w=640&amp;q=75</image>
+    </screenshot>
+  </screenshots>
+  <content_rating type="oars-1.1"/>
+</component>
