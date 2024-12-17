@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <component type="desktop-application">
-  <id>io.github.faveoled.PortainerBox</id>
+  <id>io.github.faveoled.Portainer-Box</id>
   
   <name>Portainer Box</name>
   <summary>Manage your local Docker containers</summary>
@@ -15,7 +15,10 @@
 
   <description>
     <p>
-      Manage your local Docker instance using a web UI. 
+      Manage your local Docker instance using a web UI.
+    </p>
+    <p>
+      Before running the app make sure your user can access Docker CLI without root access.
     </p>
     <p>
       Features: 
@@ -28,7 +31,7 @@
     </ul>
   </description>
   
-  <launchable type="desktop-id">io.github.faveoled.PortainerBox.desktop</launchable>
+  <launchable type="desktop-id">io.github.faveoled.Portainer-Box.desktop</launchable>
 
   <releases>
     <release type="stable" version="2.21.4-4" date="2024-12-17">
@@ -39,7 +42,7 @@
   </releases>
 
   <provides>
-    <id>io.github.faveoled.PortainerBox.desktop</id>
+    <id>io.github.faveoled.Portainer-Box.desktop</id>
   </provides>
 
   <url type="homepage">https://github.com/faveoled/portainer-box</url>
