@@ -48,8 +48,17 @@
 
   <screenshots>
     <screenshot type="default">
-      <image>https://flathub.org/_next/image?url=https%3A%2F%2Fdl.flathub.org%2Fmedia%2Fnet%2Fkrafting%2FHexColordle%2Fab497c8dc4186ef6c33e9ec5f9e0f691%2Fscreenshots%2Fimage-1_orig.webp&amp;w=640&amp;q=75</image>
+      <image>https://github.com/faveoled/portainer-box/blob/main/screenshots/01-Home.png?raw=true</image>
+      <caption>Home window</caption>      
     </screenshot>
+    <screenshot>
+      <image>https://github.com/faveoled/portainer-box/blob/main/screenshots/02-Dashboard.png?raw=true</image>
+      <caption>Dashboard</caption>      
+    </screenshot>
+    <screenshot>
+      <image>https://github.com/faveoled/portainer-box/blob/main/screenshots/03-Details.png?raw=true</image>
+      <caption>Container details</caption>      
+    </screenshot>    
   </screenshots>
   <content_rating type="oars-1.1"/>
 </component>
