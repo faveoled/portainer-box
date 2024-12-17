@@ -29,7 +29,7 @@ let tunnelPort = randomPorts[2].toString();
 let CFG = {
     "appName": "Portainer Box",
     "bindUrl": bindHttp,
-    "appId": "io.github.faveoled.PortainerBox",
+    "appId": "io.github.faveoled.Portainer-Box",
     "serverCmdLine": [
         "/app/portainer/portainer", 
         "--data", xdgHomeDir, 
@@ -112,8 +112,6 @@ class WebBrowser extends Gtk.Application {
         this._window = new Gtk.ApplicationWindow({
             application: this,
             window_position: Gtk.WindowPosition.CENTER,
-            // default_height: 768,
-            // default_width: 1024,
             border_width: 0,
             title: CFG["appName"]
         });
