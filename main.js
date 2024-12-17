@@ -22,8 +22,9 @@ if (xdgHomeDir === null) {
 
 let randomPorts = getRandomPorts();
 
-let bindHttp = "localhost:" + randomPorts[0];
-let bindHttps = "localhost:" + randomPorts[1];
+let bindHttp = "127.0.0.1:" + randomPorts[0];
+let bindHttps = "127.0.0.1:" + randomPorts[1];
+let tunnelAddr = "127.0.0.1"
 let tunnelPort = randomPorts[2].toString();
 
 let CFG = {
@@ -35,6 +36,7 @@ let CFG = {
         "--data", xdgHomeDir, 
         "--bind", bindHttp,
         "--bind-https", bindHttps,
+        "--tunnel-addr", tunnelAddr,
         "--tunnel-port", tunnelPort
     ]
 }
