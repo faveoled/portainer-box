@@ -26,9 +26,11 @@ let bindHttp = "127.0.0.1:" + randomPorts[0];
 let bindHttps = "127.0.0.1:" + randomPorts[1];
 let tunnelAddr = "127.0.0.1"
 let tunnelPort = randomPorts[2].toString();
+let homeUrl = "http://localhost:" + randomPorts[0];
 
 let CFG = {
     "appName": "Portainer Box",
+    "homeUrl": homeUrl,
     "bindUrl": bindHttp,
     "appId": "io.github.faveoled.Portainer-Box",
     "serverCmdLine": [
@@ -53,8 +55,7 @@ class WebBrowser extends Gtk.Application {
             application_id: CFG["appId"]
         });
 
-        this._bindUrl = CFG["bindUrl"];
-        this._homeUrl = "http://" + CFG["bindUrl"];
+        this._homeUrl = CFG["homeUrl"];
 
         // Connect "activate" and "startup" signals to the callback functions
         this.connect("activate", () => this._onActivate())
